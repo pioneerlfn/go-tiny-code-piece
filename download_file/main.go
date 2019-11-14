@@ -13,8 +13,8 @@ func main() {
 	}
 	url := os.Args[1]
 	filename := os.Args[2]
-
 	err := download.DownloadFile(url, filename)
+	// err := download.DownloadFile(url, filename)
 	if err != nil {
 		panic(err)
 	}
